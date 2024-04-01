@@ -14,7 +14,7 @@ function filterFormBlocks() {
         var blockBatch = parseInt(block.getAttribute('data-batch'), 10);
         var blockDegree = block.getAttribute('data-degree');
 
-        if (blockBatch <= selectedBatch && blockDegree === selectedDegree) {
+        if (blockBatch >= selectedBatch && blockDegree === selectedDegree) {
             block.style.display = 'block';
         } else {
             block.style.display = 'none';
