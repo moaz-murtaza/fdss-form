@@ -50,6 +50,7 @@ select {
 label {
   font-weight: bold;
   margin-bottom: 5px;
+  font-size: 15px;
   color: #555;
 }
 
@@ -106,4 +107,17 @@ button{
     width: 100%;
     margin-bottom: 10px;
   }
+}
+
+
+input[type = "text"]{
+  width: 100%;
+  display: block;
+  border-radius: 5px;
+  padding: 5px;
+  border: solid 1px #ccc;
+}
+
+input {
+  margin-bottom: 20px;
 }
